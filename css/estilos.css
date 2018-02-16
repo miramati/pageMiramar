@@ -1,0 +1,95 @@
+/*
+font-family: 'Arapey', serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Playfair Display SC', serif;
+*/
+
+html, body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Vidaloka', serif;
+}
+
+.page-header {
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Vidaloka', serif;
+}
+
+#titulo-logo {
+    font-family: 'Playfair Display SC', serif;
+}
+
+/*cover*/
+#cover {
+    background: #222 url('../img/office_bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#encabezado {
+    background-size: cover;
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.navbar {
+    /*
+    position: fixed;
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    */
+}
+
+.contenido-seccion {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.contenido-seccion-acerca-de {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.contenido-seccion-empresa {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+#acerca-de {
+    background: url('../img/manos.jpg') center center no-repeat;
+}
+
+.texto-acerca-de{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+.card-block {
+    padding: 1rem 1rem;
+}
+
+
+
+
